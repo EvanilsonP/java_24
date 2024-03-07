@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ifStatements {
+public class conditionals {
     
     public static void main(String[] args) {
 
@@ -18,5 +18,20 @@ public class ifStatements {
         }
 
         scanner.close();
+
+        String day = "Friday";
+
+        switch (day) {
+            case "Sunday": System.out.println("It is sunday, ");
+            break;
+        
+            case "Monday": System.out.println("It is monday. ");
+            break;
+
+            case "Tuesday": System.out.println("It is thuesday. ");
+            break;
+
+            default: System.out.println("No day found. ");
+        }
     }
 }
