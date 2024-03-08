@@ -25,6 +25,8 @@ public class nestedLoops {
             for(int j = 1; j <= columns; j++) {
                 System.out.println(symbol);
             }
+
+            scanner.close();
         }
     }
 }
