@@ -1,7 +1,5 @@
 package OOP;
 
-import java.util.Random;
-
 public class constructor {
     
     public static void main(String[] args) {
