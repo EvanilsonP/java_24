@@ -14,25 +14,23 @@ public class printf {
         double myDouble = 1000;
 
         // Convertion characters
-        // System.out.printf("%b", myBoolean);
-        // System.out.printf("%c", myChar);
-        // System.out.printf("%s", myString);
-        // System.out.printf("%d", myInt);
-        // System.out.printf("%f", myDouble);
+        System.out.printf("%b", myBoolean);
+        System.out.printf("%c", myChar);
+        System.out.printf("%s", myString);
+        System.out.printf("%d", myInt);
+        System.out.printf("%f", myDouble);
 
         // Width
         // Minimum number of characters to be written as output
-        // System.out.printf("Hello %10s", myString); // Hello          Bro
+        System.out.printf("Hello %10s", myString); // Hello          Bro
 
         // Precision
         // Sets numbers of precision 
-        // System.out.printf("You have this much money %.2f", myDouble); // 1000.00
+        System.out.printf("You have this much money %.2f", myDouble); // 1000.00
 
         // Flags
         // Adds an effect to ouput based on the flag added to format specifier
         System.out.printf("You have this much money %,f", myDouble); // 1000,00
-
-
 
     }
 }
